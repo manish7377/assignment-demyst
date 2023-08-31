@@ -1,0 +1,66 @@
+.balance-sheet {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 25px;
+  }
+  
+  .form-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .fetch-button,
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  .fetch-button:hover,
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  .submit-button:disabled {
+    background-color: #aaabba;
+    cursor: not-allowed;
+  }
+  
+  .table-container {
+    max-height: 200px;
+    overflow: auto;
+  }
+  
+  .balance-sheet-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .balance-sheet-table th,
+  .balance-sheet-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .balance-sheet-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .balance-sheet-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .balance-sheet-table tr:hover {
+    background-color: #e0e0e0;
+  }
+  
